@@ -10,14 +10,20 @@
     <fragment
         android:tag="firstFrag"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="250dp"
         class="com.nepplus.fragmentpractice_20210327.fragments.FirstFragment"/>
 
     <fragment
         android:tag="toastFrag"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="250dp"
         class="com.nepplus.fragmentpractice_20210327.fragments.SecondFragment"/>
+
+    <fragment
+        android:tag="추가Frag"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        class="com.nepplus.fragmentpractice_20210327.fragments.FirstFragment"/>
 
 
 </LinearLayout>
