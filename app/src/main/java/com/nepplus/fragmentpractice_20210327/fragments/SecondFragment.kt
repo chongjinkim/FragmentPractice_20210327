@@ -25,9 +25,8 @@ class SecondFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
 
         seclogBtn.setOnClickListener {
-            //Toast.makeText(this, "두번째 Fragment에서 실행", Toast.LENGTH_SHORT).show()
+            Toast.makeText(activity!!, "토스트 띄우기", Toast.LENGTH_SHORT).show()
 
-            Log.d("두번째 Fragment에서 실행", "테스트용 로그 출력")
         }
     }
 }
